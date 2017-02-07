@@ -1,0 +1,131 @@
+/*页面初始化*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    position: relative;
+    display: none;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+img{
+    border: none;
+}
+select,input{
+    border: 1px solid #EDEDED;
+}
+input[type='button'],
+input[type='submit'],
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+input,select{
+    border: 1px solid #ccc;
+    outline: none;
+}
+.wrap,.action{
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    padding-top: 88px;
+    padding-bottom: 99px;
+    overflow: hidden;
+}
+/*top*/
+.top{
+    width: 100%;
+    height: 88px;
+    overflow: hidden;
+    background: #4b89dc;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.top>a{
+    display: block;
+    position: absolute;
+    z-index: 50;
+}
+.top>a>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.top>div{
+    width: 100%;
+    height: 88px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 88px;
+    font-size: 30px;
+    color: #fff;
+}
+.top>a:nth-child(1){
+    width: 42px;
+    height: 42px;
+    left: 18px;
+    top:25px;
+}
+.top>a:nth-child(3){
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    right: 29px;
+    top:25px;
+}
+/*bottombar*/
+.bottomBar{
+    width: 100%;
+    height: 99px;
+    overflow: hidden;
+    background: #ededed;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    boder-top:1px solid #dedede;
+}
+.bottomBar>a{
+    display: block;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+}
+.bottomBar>a>img,
+.bottomBar>a>span{
+    display: block;
+}
+.bottomBar>a>img{
+    width: 44px;
+    height: 41px;
+    overflow: hidden;
+    margin: 15px auto 0px;
+}
+.bottomBar>a>span{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 7px;
+}
+.bottomBar .active>span{
+    color: #4b89dc;
+}

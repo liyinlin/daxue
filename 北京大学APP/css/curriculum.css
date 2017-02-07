@@ -1,0 +1,108 @@
+.list{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.list>div{
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.list>div>div{
+    overflow: hidden;
+}
+.day{
+    width: 17.7%;
+    overflow: hidden;
+}
+.day>div:nth-child(1)>span{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+.day>div:nth-child(1)>span:nth-child(1){
+    color: #9a9a9a;
+    margin-top: 6px;
+}
+.day>div:nth-child(1)>span:nth-child(2){
+    color: #666666;
+    margin-top: 2px;
+}
+.month{
+    width: 11.25%;
+    overflow: hidden;
+}
+.month>div{
+    background: #f3f3f3;
+}
+.list>div>div{
+    width: 100%;
+    height: 74px;
+    font-size: 24px;
+    line-height: 74px;
+    color: #666666;
+    border-top: 1px solid #dedede;
+    text-align: center;
+}
+.list>div>div:nth-child(1){
+    height: 52px;
+    line-height: 52px;
+}
+.list>div>div:nth-child(6){
+    margin-top: 100px;
+    border-top: none;
+}
+.list>div>div:nth-child(9){
+    border-bottom: 1px solid #dedede;
+}
+.main .list .day .name{
+    width: 100%;
+    height: 149px;
+    position: absolute;
+    color: #fff;
+    border-top: none;
+}
+.main .list .day .color1{
+    background: #ef6694;
+}
+.main .list .day .color2{
+    background: #83b820;
+}
+.main .list .day .color3{
+    background: #ed8c2e;
+}
+.main .list .day .color4{
+    background: #43a9cf;
+}
+.main .list .day .pos1{
+    top:56px;
+}
+.main .list .day .pos2{
+    top:207px;
+}
+.main .list .day .pos3{
+    top:456px;
+    height:151px;
+}
+.main .list .day .pos4{
+    top:608px;
+    height:151px;
+}
+.main .list .wx{
+    width: 100%;
+    position: absolute;
+    top:355px;
+    background: #fff;
+    font-size: 30px;
+    color: #333;
+    height: 102px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 50;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+}
+.day>div{
+    border-left:1px solid #dedede;
+}

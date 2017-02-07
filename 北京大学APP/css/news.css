@@ -1,0 +1,46 @@
+.list{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 3px;
+}
+.list>a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    border-top: 1px solid #EDEDED;
+}
+.list>a:nth-child(1){
+    border-top: none;
+}
+.list>a>div{
+    float: left;
+    overflow: hidden;
+}
+.list>a>div:nth-child(1){
+    width: 64.375%;
+}
+.list>a>div:nth-child(2){
+    width: 35.625%;
+}
+.list>a>div:nth-child(2)>img{
+    width: 210px;
+    height: 140px;
+    display: block;
+}
+.list>a>div:nth-child(1)>div{
+    width: 338px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #000000;
+}
+.list>a>div:nth-child(1)>p{
+    width:350px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #9a9a9a;
+    margin-left: 24px;
+}

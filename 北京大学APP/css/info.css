@@ -1,0 +1,62 @@
+.list{
+    width: 100%;
+    overflow: hidden;
+}
+.list>a{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #EDEDED;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.list>a:nth-child(1){
+    border-top: none;
+}
+.list>a>div{
+    float: left;
+}
+.list>a>div:nth-child(1){
+    width: 18.75%;
+}
+.list>a>div:nth-child(2){
+    width: 81.25%;
+}
+.list>a>div:nth-child(1)>img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.list>a>div:nth-child(2)>div,
+.list>a>div:nth-child(2)>p{
+    width: 482px;
+    overflow: hidden;
+}
+.list>a>div:nth-child(2)>div>span{
+    float: left;
+    font-size: 24px;
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+    display: block;
+    color: #333;
+}
+.list>a>div:nth-child(2)>div>span:nth-child(1){
+    width: 308px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list>a>div:nth-child(2)>div>span:nth-child(2){
+    float: right;
+    margin-right: 8px;
+    font-size: 16px;
+    color: #666;
+}
+.list>a>div:nth-child(2)>p{
+    line-height: 24px;
+    font-size: 16px;
+    margin-top:8px;
+    color: #666;
+}

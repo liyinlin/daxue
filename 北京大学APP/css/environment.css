@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin-left: -5px;
+}
+.grid {
+    list-style: none;
+    padding: 0;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.grid li {
+    display: block;
+    float: left;
+    position: relative;
+    padding: 0px;
+    width: 50%;
+    opacity: 0;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.grid li a,
+.grid li img {
+    outline: none;
+    border: none;
+    display: block;
+}
+.grid li>a{
+    text-decoration: none;
+    width: 298px;
+    border: 1px solid #ededed;
+    background: #f7f7f7;
+    margin-left: 10px;
+}
+.grid li>a>img{
+    width: 280px;
+    margin: 9px auto;
+    overflow: hidden;
+}
+.grid li>a .content{
+    width: 280px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.grid li>a .content>div{
+    font-size: 24px;
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 10px;
+    color: #333;
+}
+.grid li>a .content>p{
+    font-size: 16px;
+    width: 100%;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #666;
+}

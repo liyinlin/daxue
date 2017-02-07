@@ -1,0 +1,35 @@
+.list{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.list>li{
+    width: 612px;
+    overflow: hidden;
+    border: 1px solid #EDEDED;
+    margin: 8px auto;
+    padding-bottom: 11px;
+}
+
+.list>li>a{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+.list>li>a>img{
+    width: 610px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.list>li>a>span{
+    display: block;
+    font-size: 18px;
+    width: 590px;
+    overflow: hidden;
+    text-indent: 20px;
+    line-height: 28px;
+    color: #666666;
+    margin-top: 7px;
+}
